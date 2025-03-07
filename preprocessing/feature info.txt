@@ -1,0 +1,35 @@
+Div: The division or league of the match.
+Date: The date of the match.
+HomeTeam: The name of the home team.
+AwayTeam: The name of the away team.
+FTHG: Full-time home team goals.
+FTAG: Full-time away team goals.
+FTR: Full-time result (H = Home Win, D = Draw, A = Away Win).
+HTHG: Half-time home team goals.
+HTAG: Half-time away team goals.
+HTR: Half-time result (H = Home Win, D = Draw, A = Away Win).
+HS: Home team shots.
+AS: Away team shots.
+HST: Home team shots on target.
+AST: Away team shots on target.
+HC: Home team corners.
+AC: Away team corners.
+HF: Home team fouls committed.
+AF: Away team fouls committed.
+HY: Home team yellow cards.
+AY: Away team yellow cards.
+HR: Home team red cards.
+AR: Away team red cards.
+TotalCorners: Total corners in the match (home + away).
+TotalYellowCards: Total yellow cards in the match (home + away).
+TotalGoals: Total goals in the match (home + away).
+BothTeamsScored: Indicator if both teams scored in the match (1 if true, 0 if false).
+2ndHalfHomeGoals: Home team goals scored in the second half.
+2ndHalfAwayGoals: Away team goals scored in the second half.
+2ndHalfTotalGoals: Total goals scored in the second half (home + away).
+HomeForm: Form of the home team based on the last 5 matches before the current match (scored out of 15).
+AwayForm: Form of the away team based on the last 5 matches before the current match (scored out of 15).
+HomeH2HResults
+AwayH2HResults
+HomeH2HGD
+AwayH2HGD
