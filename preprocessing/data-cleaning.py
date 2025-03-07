@@ -98,13 +98,22 @@ def clean_la_liga_data(file_path, output_path):
 clean_la_liga_data("C:/Users/sethi/Downloads/la liga 22-23.csv", "cleaned_data22-23.csv")
 clean_la_liga_data("C:/Users/sethi/Downloads/la liga 23-24.csv", "cleaned_data23-24.csv")
 clean_la_liga_data("C:/Users/sethi/Downloads/la liga 24-25.csv", "cleaned_data24-25.csv")
+clean_la_liga_data("C:/Users/sethi/Downloads/la liga 18-19.csv", "cleaned_data18-19.csv")
+clean_la_liga_data("C:/Users/sethi/Downloads/la liga 19-20.csv", "cleaned_data19-20.csv")
+clean_la_liga_data("C:/Users/sethi/Downloads/la liga 20-21.csv", "cleaned_data20-21.csv")
+clean_la_liga_data("C:/Users/sethi/Downloads/la liga 20-21.csv", "cleaned_data20-21.csv")
+clean_la_liga_data("C:/Users/sethi/Downloads/la liga 21-22.csv", "cleaned_data21-22.csv")
 
 # Combine the cleaned datasets
-df1 = pd.read_csv("cleaned_data22-23.csv")
-df2 = pd.read_csv("cleaned_data23-24.csv")
-df3 = pd.read_csv("cleaned_data24-25.csv")
+df5 = pd.read_csv("cleaned_data22-23.csv")
+df6 = pd.read_csv("cleaned_data23-24.csv")
+df7 = pd.read_csv("cleaned_data24-25.csv")
+df1 = pd.read_csv("cleaned_data18-19.csv")
+df2 = pd.read_csv("cleaned_data19-20.csv")
+df3 = pd.read_csv("cleaned_data20-21.csv")
+df4 = pd.read_csv("cleaned_data21-22.csv")
 
-combined_df = pd.concat([df1, df2, df3])
+combined_df = pd.concat([df1, df2, df3, df4, df5, df6, df7])
 print("Combined datasets")
 
 # Sort by date if needed (uncomment the following lines if necessary)
